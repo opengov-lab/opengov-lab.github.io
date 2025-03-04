@@ -1,5 +1,6 @@
 lsi: false
 safe: true
+include: [".well-known"]
 source: opengov-lab.github.io
 incremental: false
 highlighter: rouge
