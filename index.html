@@ -1,16 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<TITLE>OpenGov AI Lab: Artificial Intelligence for Open Government</TITLE>
-<link rel="icon" href="img/Icon-ICAI-OpenGovLab.png"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ICAI OpenGov Lab: Artificial Intelligence for Open Government</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
+<body class="light-mode">
+  <button class="mode-toggle" aria-label="Toggle theme">💡</button>
+  
+  <header class="site-header">
+    <img 
+      src="img/opengov-logo-light.png" 
+      alt="OpenGov Lab Logo" 
+      class="logo"
+      id="opengov-logo"
+    />
+  </header>
 
-<!-- donkergroen: 86c822; lichtgroen: d1e935 -->
-<body bgcolor="#000000" alink="#498fc2" vlink="blue" link="blue" text="#1b2430" topmargin="20" leftmargin="20" marginheight="20" marginwidth="20">
+  <main class="content">
+    <h1>Coming Soon</h1>
+    <p class="intro">
+      We’re working hard on our website. In the mean time, find some info below and stay tuned!
+    </p>
 
-<!-- <h1><font color="white">Coming soon...</font></h1> -->
+    <h2>The ICAI OpenGov Lab develops tailored AI technology</h2>
+    <p>
+      Government transparency is central in a democratic society, and increasingly, 
+      governments at all levels must publish data proactively and passively 
+      (e.g., through FOIA requests). The lab's mission is to improve and 
+      support interpretation, retrieval, and use of open government data, 
+      to increase government transparency, public trust, and ultimately 
+      democratic participation. By collaborating with the government, 
+      researchers, journalists, and citizens, we address the entire information 
+      lifecycle: from data creation and disclosure (supply) to its responsible 
+      use and societal impact (demand).
+      Our research helps improve information culture and practices within government, 
+      and empowers citizens to engage more effectively in public discourse 
+      and decision-making.
+    </p>
 
-<center>
-<img width="100%" src="img/Boilerplate-ICAI-OpenGovLab.png" alt="ICAI OpenGov Lab" border=0>
-</center>
+    <h2>About the Lab</h2>
+    <p>
+      The ICAI OpenGov Lab starts with three dual PhD candidates employed by
+      the <a href="https://www.rvihh.nl/" target="_blank">Rijksorganisatie voor Informatiehuishouding (RvIHH)</a> 
+      and expects to expand to five within the first year. Day-to-day management
+      is in the hands of lab manager 
+      <a href="https://graus.nu/" target="_blank">Dr. David Graus</a>. The scientific
+      directors are 
+      <a href="https://www.uva.nl/profile/j.kamps" target="_blank">Dr. ir. Jaap Kamps</a> 
+      (<a href="https://www.illc.uva.nl/" target="_blank">ILLC</a>, UvA) and 
+      <a href="https://www.uva.nl/profile/m.j.marx" target="_blank">Dr. Maarten Marx</a> 
+      (<a href="https://irlab.science.uva.nl/" target="_blank">IRLab</a>, UvA).
+    </p>
+
+    <h2>About ICAI</h2>
+    <p>
+      <a href="https://www.icai.ai/" target="_blank">ICAI</a> (Innovation Center for Artificial Intelligence) 
+      is a national collaboration between knowledge institutions, industry, 
+      and government, focused on AI innovation and talent development. Within ICAI labs, 
+      researchers and companies work closely together on groundbreaking AI research 
+      and applications that directly add value to society.
+    </p>
+
+    <p class="contact">
+      Have questions? Email us at 
+      <a href="mailto:graus@opengov.nl">graus@opengov.nl</a>
+    </p>
+  </main>
+
+  <script>
+    const toggleBtn = document.querySelector('.mode-toggle');
+    const body = document.body;
+    const logoImg = document.getElementById('opengov-logo');
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('light-mode');
+      body.classList.toggle('dark-mode');
+      
+      if (body.classList.contains('dark-mode')) {
+        logoImg.src = 'img/opengov-logo-dark.png';
+      } else {
+        logoImg.src = 'img/opengov-logo-light.png';
+      }
+    });
+  </script>
 </body>
 </html>
