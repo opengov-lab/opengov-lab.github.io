@@ -36,10 +36,11 @@ body.dark-mode {
 }
 
 .logo {
-  max-width: 600px;  
+  width: 100%;
+  max-width: 600px;
   height: auto;
-  display: inline-block;
-  margin-bottom: 2rem;
+  display: block;
+  margin: 0 auto 2rem;
 }
 
 .content {
