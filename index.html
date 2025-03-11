@@ -3,14 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Title for browsers and search engines -->
   <title>ICAI OpenGov Lab: Artificial Intelligence for Open Government</title>
+
+  <!-- SEO: Meta Description -->
+  <meta name="description" content="The ICAI OpenGov Lab develops and applies advanced AI to improve open government data, transparency, and public trust." />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="ICAI OpenGov Lab: Artificial Intelligence for Open Government" />
+  <meta property="og:description" content="The ICAI OpenGov Lab develops and applies advanced AI to improve open government data, transparency, and public trust." />
+  <meta property="og:image" content="https://opengov.nl/img/opengov-logo-light.png" />
+  <meta property="og:url" content="https://opengov.nl" />
+  <meta property="og:type" content="website" />
+
+  <!-- Link to your CSS -->
   <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicons / App icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="light-mode">
+  <!-- Dark/Light theme toggle (positioned top-right by CSS) -->
   <button class="mode-toggle" aria-label="Toggle theme">💡</button>
   
   <header class="site-header">
@@ -47,20 +64,24 @@
     <h2>About the Lab</h2>
     <p>
       The ICAI OpenGov Lab starts with three dual PhD candidates employed by
-      the <a href="https://www.rvihh.nl/" target="_blank">Rijksorganisatie voor Informatiehuishouding (RvIHH)</a> 
+      the <a href="https://www.rvihh.nl/" target="_blank" rel="noopener noreferrer">
+        Rijksorganisatie voor Informatiehuishouding (RvIHH)</a> 
       and expects to expand to five within the first year. Day-to-day management
       is in the hands of lab manager 
-      <a href="https://graus.nu/" target="_blank">Dr. David Graus</a>. The scientific
-      directors are 
-      <a href="https://www.uva.nl/profile/j.kamps" target="_blank">Dr. ir. Jaap Kamps</a> 
-      (<a href="https://www.illc.uva.nl/" target="_blank">ILLC</a>, UvA) and 
-      <a href="https://www.uva.nl/profile/m.j.marx" target="_blank">Dr. Maarten Marx</a> 
-      (<a href="https://irlab.science.uva.nl/" target="_blank">IRLab</a>, UvA).
+      <a href="https://graus.nu/" target="_blank" rel="noopener noreferrer">
+        Dr. David Graus</a>. The scientific directors are 
+      <a href="https://www.uva.nl/profile/j.kamps" target="_blank" rel="noopener noreferrer">
+        Dr. ir. Jaap Kamps</a> 
+      (<a href="https://www.illc.uva.nl/" target="_blank" rel="noopener noreferrer">ILLC</a>, UvA) and 
+      <a href="https://www.uva.nl/profile/m.j.marx" target="_blank" rel="noopener noreferrer">
+        Dr. Maarten Marx</a> 
+      (<a href="https://irlab.science.uva.nl/" target="_blank" rel="noopener noreferrer">IRLab</a>, UvA).
     </p>
 
     <h2>About ICAI</h2>
     <p>
-      <a href="https://www.icai.ai/" target="_blank">ICAI</a> (Innovation Center for Artificial Intelligence) 
+      <a href="https://www.icai.ai/" target="_blank" rel="noopener noreferrer">
+        ICAI</a> (Innovation Center for Artificial Intelligence) 
       is a national collaboration between knowledge institutions, industry, 
       and government, focused on AI innovation and talent development. Within ICAI labs, 
       researchers and companies work closely together on groundbreaking AI research 
@@ -73,6 +94,7 @@
     </p>
   </main>
 
+  <!-- Theme toggle script -->
   <script>
     const toggleBtn = document.querySelector('.mode-toggle');
     const body = document.body;
