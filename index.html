@@ -4,16 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- Title for browsers and search engines -->
   <title>ICAI OpenGov Lab: Artificial Intelligence for Open Government</title>
 
-  <!-- SEO: Meta Description -->
   <meta name="description" content="The ICAI OpenGov Lab develops and applies advanced AI to improve open government data, transparency, and public trust." />
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:title" content="ICAI OpenGov Lab: Artificial Intelligence for Open Government" />
   <meta property="og:description" content="The ICAI OpenGov Lab develops and applies advanced AI to improve open government data, transparency, and public trust." />
-  <meta property="og:image" content="https://opengov.nl/img/opengov-logo-light.png" />
+  <meta property="og:image" content="https://opengov.nl/img/logo.jpg" />
   <meta property="og:url" content="https://opengov.nl" />
   <meta property="og:type" content="website" />
 
@@ -21,10 +19,11 @@
   <link rel="stylesheet" href="styles.css">
   
   <!-- Favicons / App icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body class="light-mode">
   <!-- Dark/Light theme toggle (positioned top-right by CSS) -->
@@ -32,7 +31,7 @@
   
   <header class="site-header">
     <img 
-      src="img/opengov-logo-light.png" 
+      src="img/logo.svg" 
       alt="OpenGov Lab Logo" 
       class="logo"
       id="opengov-logo"
@@ -98,17 +97,10 @@
   <script>
     const toggleBtn = document.querySelector('.mode-toggle');
     const body = document.body;
-    const logoImg = document.getElementById('opengov-logo');
 
     toggleBtn.addEventListener('click', () => {
       body.classList.toggle('light-mode');
       body.classList.toggle('dark-mode');
-      
-      if (body.classList.contains('dark-mode')) {
-        logoImg.src = 'img/opengov-logo-dark.png';
-      } else {
-        logoImg.src = 'img/opengov-logo-light.png';
-      }
     });
   </script>
 </body>
