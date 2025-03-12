@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "ICAI OpenGov Lab",
+  "short_name": "OpenGov",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
