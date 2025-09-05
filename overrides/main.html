@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block header %}
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid unified-header" aria-label="Header">
+
+    <!-- Logo -->
+    <a href="{{ base_url }}/" title="{{ config.site_name }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      <img src="{{ base_url }}/assets/images/icon.svg" alt="logo">
+    </a>
+
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Open menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+        <rect y="44.67502" width="50" height="5.32498"/>
+        <rect width="50" height="5.32498"/>
+        <rect y="14.89042" width="50" height="5.32498"/>
+        <rect y="29.78209" width="50" height="5.32624"/>
+      </svg>
+    </label>
+    
+    
+    <!-- Navigation Tabs (moved inline) -->
+    {% if "navigation.tabs" in features %}
+    <div class="md-tabs md-tabs--header" aria-label="Tabs" data-md-component="tabs">
+      <ul class="md-tabs__list">
+        {% for nav_item in nav %}
+        <li class="md-tabs__item {% if nav_item.active %}md-tabs__item--active{% endif %}">
+          <a href="{{ nav_item.url | url }}" class="md-tabs__link">
+            {{ nav_item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <!-- Dark Mode Toggle -->
+    {% include "partials/palette.html" %}
+
+    <!-- Search -->
+    {% include "partials/search.html" %}
+
+  </nav>
+</header>
+{% endblock %}
+
+{% block content %}
+
+  {% set title_style = page.meta.title_style or "default" %}
+
+  <!-- Optional: prevent default title from rendering -->
+  <style>
+    .md-typeset > h1:not(.md-title) {
+      display: none;
+    }
+  </style>
+
+  <div class="md-title-wrapper">
+    <h1 class="md-title title-{{ title_style }}">{{ page.title }}</h1>
+  </div>
+
+  {{ super() }}
+{% endblock %}

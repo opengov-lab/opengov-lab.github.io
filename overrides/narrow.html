@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <!-- Suppress MkDocs-generated h1 unless it’s your own -->
+  <style>
+    .md-typeset > h1:not(.md-title) {
+      display: none;
+    }
+  </style>
+
+  <!-- Determine title class from page metadata -->
+  {% set title_style = page.meta.title_style or "default" %}
+
+  <!-- Full-width title section -->
+  <div class="narrow-title">
+    <div class="narrow-title__inner">
+      <h1 class="md-title title-{{ title_style }}">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <!-- Narrow content area -->
+  <div class="narrow-page">
+    {{ page.content }}
+  </div>
+{% endblock %}

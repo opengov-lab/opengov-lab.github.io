@@ -1,0 +1,102 @@
+site_name: ICAI OpenGov Lab - opengov.nl
+site_url: https://opengov.nl
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+#  logo: assets/images/icon.svg
+  favicon: assets/images/icon.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: contrast
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: contrast
+        name: Switch to light mode
+  font:
+    text: Geist
+    code: Geist Mono Medium
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search
+  - social
+  - blog:
+      blog_dir: blog
+      post_readtime: false
+      blog_toc: false
+      post_date_format: dd.MM.yyyy
+  - blog:
+      blog_dir: events
+      blog_toc: false
+      post_date_format: dd.MM.yyyy
+markdown_extensions:
+  - footnotes
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+  - attr_list
+nav:
+  - About: about.md
+  - Team: team.md
+  - Partners: partners.md
+  - News: blog/index.md
+  - Events: events/index.md
+  - Papers: publications.md
+  - Contact: contact.md
+extra:
+  generator: false
+  social:
+    image: assets/images/logo-social.jpg
+    cards:
+      site_name: ICAI OpenGov Lab - opengov.nl
+      site_url: https://opengov.nl
+  social:
+    - icon: github
+      link: https://github.com/opengov-lab/
+    - icon: icai
+      link: https://www.icai.ai/labs/icai-opengov-lab
+    - icon: bluesky
+      link: https://bsky.app/profile/opengov.nl
+    - icon: linkedin
+      link: https://www.linkedin.com/company/opengov-lab

@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+  <!-- Full-width logo header -->
+  <div class="home-hero">
+    <img src="{{ base_url }}/assets/images/logo.svg" alt="OpenGov Logo" class="home-hero__logo only-light" />
+    <img src="{{ base_url }}/assets/images/logo-dark.svg" alt="OpenGov Logo" class="home-hero__logo only-dark" />
+  </div>
+
+  <!-- Narrow content area -->
+  <div class="narrow-page">
+    {{ page.content }}
+  </div>
+
+{% endblock %}

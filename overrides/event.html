@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+
+{% block container %}
+<div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+        <header class="md-typeset">
+            <h1>{{ page.title }}</h1>
+            {{ page.content }}
+        </header>
+        
+        {% set sorted_posts = posts | sort(attribute="meta.date.event") %}
+
+        <div class="event-posts">
+            {% for post in sorted_posts %}
+            <article class="md-post md-post--excerpt">
+                <div class="event-date">
+                    {{ post.meta.date['event'].strftime('%d.%m.%Y') }}
+                </div>
+                <div class="event-info">
+                    {{ post.content | safe }}
+                </div>                  
+            </article>
+            {% endfor %}
+        </div>
+
+        {% if pagination %}
+        {% block pagination %}
+        {% include "partials/pagination.html" %}
+        {% endblock %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
