@@ -50,21 +50,10 @@ ol {
   margin: 0 auto;
 }
 
-.only-light {
-  display: block;
-}
-
-.only-dark {
-  display: none;
-}
-
-[data-md-color-scheme="slate"] .only-light {
-  display: none;
-}
-
-[data-md-color-scheme="slate"] .only-dark {
-  display: block;
-}
+.only-light { display: block; }
+.only-dark { display: none; }
+[data-md-color-scheme="slate"] .only-light { display: none; }
+[data-md-color-scheme="slate"] .only-dark { display: block; }
 
 .md-content__inner {
   padding: 0;
@@ -346,8 +335,125 @@ section.team-member {
   margin: 0 0 0.5rem;
 }
 
-.team-member__bio {
-  font-family: var(--md-text-font, sans-serif);
+.band {
+  padding: 2rem 1rem;
+}
+.band--alt {
+  background: var(--md-secondary-bg-color);
+}
+
+.md-typeset a.btn {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  background: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color) !important; /* override link color */
+  text-decoration: none;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.md-typeset a.btn:hover,
+.md-typeset a.btn:focus {
+  background: var(--md-accent-fg-color);
+  color: var(--md-default-bg-color) !important;
+}
+
+.band.team .people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+  gap: 12px;
+}
+
+.band.team .people img {
+  width: 100%;
+  aspect-ratio: 1 / 1;     /* keeps all thumbs square */
+  object-fit: cover;        /* crops to face nicely */
+  border-radius: 50%;       /* optional, remove if you want sharp corners */
+  display: block;
+}
+
+/* Optional: make the CTA sit on the right edge of the text column */
+.band .wrap .cta {
+  text-align: center;
+  margin-top: .5rem; }
+
+.wrap {
+  max-width: 60ch;   /* keeps text narrow */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.wrap h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1rem;
+  height: auto;
+}
+
+.band.partners {
+  --logo-w: 260px;        /* visual size of each logo */
+  --col-min: 240px;      /* min tile width before wrapping */
+  --gap: 24px;           /* space between tiles */
+}
+
+.band.partners .wrap > p:last-child{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--col-min), 1fr));
+  gap: var(--gap);
+  align-items: left;
+}
+
+.band.partners img{
+  width: var(--logo-w);   /* primary size control */
+  height: auto;             /* preserve aspect ratio */
+  justify-self: center;    /* center inside tile */
+  padding: 8px;            /* small breathing room */
+  object-fit: contain;     /* safe for odd SVGs/PNGs */
+}
+
+/* keep your scheme toggles (class-based) */
+.only-light { display: block; }
+.only-dark  { display: none; }
+[data-md-color-scheme="slate"] .only-light { display: none; }
+[data-md-color-scheme="slate"] .only-dark  { display: block; }
+
+/* Contact list → pill row (Markdown-native ul) */
+.band.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: .25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.band.contact li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: .45rem .75rem;
+}
+
+.band.contact .icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.band.contact .icon svg {
+  fill: var(--md-default-bg-color);
+}
+
+@media (min-width: 900px){
+  .band.partners .logos img{ height: 72px; }
 }
 
 @media (max-width: 960px) {
