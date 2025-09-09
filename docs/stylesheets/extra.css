@@ -37,19 +37,6 @@ ol {
   max-width: none;
 }
 
-.home-hero {
-  background: var(--md-default-bg-color--light);
-  padding: 1rem 0 0;
-  text-align: center;
-}
-
-.home-hero__logo {
-  width: 700px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 .only-light { display: block; }
 .only-dark { display: none; }
 [data-md-color-scheme="slate"] .only-light { display: none; }
@@ -343,22 +330,26 @@ section.team-member {
 }
 
 .md-typeset a.btn {
+  margin-top: 1rem;
   display: inline-block;
   padding: 0.5rem 0.9rem;
-  background: var(--md-primary-fg-color);
+  background: var(--md-accent-fg-color);
   color: var(--md-default-bg-color) !important; /* override link color */
   text-decoration: none;
   font-weight: 500;
   border: none;
-  border-radius: 8px;
+  border-radius: 0;
   cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);  /* subtle lift */
   transition: background 0.2s ease;
 }
 
 .md-typeset a.btn:hover,
 .md-typeset a.btn:focus {
-  background: var(--md-accent-fg-color);
+  background: var(--md-primary-fg-color);
   color: var(--md-default-bg-color) !important;
+  transform: translateY(-2px);       /* lift on hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,.2);
 }
 
 .band.team .people {
@@ -375,11 +366,6 @@ section.team-member {
   display: block;
 }
 
-/* Optional: make the CTA sit on the right edge of the text column */
-.band .wrap .cta {
-  text-align: center;
-  margin-top: .5rem; }
-
 .wrap {
   max-width: 60ch;   /* keeps text narrow */
   margin: 0 auto;
@@ -393,7 +379,7 @@ section.team-member {
 
 .logo {
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
   height: auto;
 }
 

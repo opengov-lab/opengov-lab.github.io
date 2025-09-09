@@ -9,7 +9,7 @@ description: AI for Open Government.
   }
 </style>
 
-<section class="band band--alt hero" markdown>
+<section class="band band--alt" markdown>
   <div class="wrap" markdown>
 
 ![OpenGov Logo](assets/images/logo.svg){: .logo }
