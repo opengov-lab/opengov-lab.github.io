@@ -9,10 +9,10 @@ description: AI for Open Government.
   }
 </style>
 
-<section class="band band--alt" markdown>
+<section class="band band--alt hero" markdown>
   <div class="wrap" markdown>
 
-![OpenGov Logo](assets/images/logo.svg){: .logo }
+![OpenGov Logo](assets/images/logo.svg)
 
   </div>
 </section>
@@ -26,7 +26,7 @@ The lab's mission is to improve and support interpretation, retrieval, and use o
 
 Our research helps improve information culture and practices within government, and empowers citizens to engage more effectively in public discourse and decision-making.
 
-[:fontawesome-solid-flask: What we do](about.md){ .btn }
+<p class="cta" markdown>[:fontawesome-solid-flask: Our mission](about.md#Mission){ .md-button .md-button--primary }</p>
 
   </div>
 
@@ -56,23 +56,23 @@ Our research helps improve information culture and practices within government, 
 
   <div class="people" markdown>
 
-![David Graus](assets/images/team/david.jpg "David Graus")
+[![David Graus](assets/images/team/david.jpg "David Graus")](team.md/#david-graus)
 
-![Jaap Kamps](assets/images/team/jaap.jpg "Jaap Kamps")
+[![Jaap Kamps](assets/images/team/jaap.jpg "Jaap Kamps")](team.md/#jaap-kamps)
 
-![Maarten Marx](assets/images/team/maarten.jpg "Maarten Marx")
+[![Maarten Marx](assets/images/team/maarten.jpg "Maarten Marx")](team.md/#maarten-marx)
 
-![Maik Larooij](assets/images/team/maik.jpg "Maik Larooij")
+[![Maik Larooij](assets/images/team/maik.jpg "Maik Larooij")](team.md/#maik-larooij)
 
-![Damiaan Reijnaers](assets/images/team/damiaan.jpg "Damiaan Reijnaers")
+[![Damiaan Reijnaers](assets/images/team/damiaan.jpg "Damiaan Reijnaers")](team.md/#damiaan-reijnaers)
 
-![Lisa Winters](assets/images/team/lisa.jpg "Lisa Winters")
+[![Lisa Winters](assets/images/team/lisa.jpg "Lisa Winters")](team.md/#lisa-winters)
 
-![Patricia Moeskops](assets/images/team/patricia.jpg "Patricia Moeskops")
+[![Patricia Moeskops](assets/images/team/patricia.jpg "Patricia Moeskops")](team.md/#patricia-moeskops)
 
   </div>
 
-[:fontawesome-solid-people-group: Meet the team](team.md){ .btn }
+<p class="cta" markdown>[:fontawesome-solid-people-group: Meet the team](team.md){ .md-button }</p>
 
   </div>
 </section>
@@ -82,14 +82,14 @@ Our research helps improve information culture and practices within government, 
 
 ## Contact
 
-Get in touch with us at:
+<p style="text-align: center;" markdown>Get in touch with us at:</p>
 
 - :fontawesome-solid-envelope: [info@opengov.nl](mailto:info@opengov.nl)
 - :fontawesome-brands-square-linkedin: [LinkedIn](https://www.linkedin.com/company/opengov-lab/)
 - :fontawesome-brands-bluesky: [Bluesky](https://bsky.app/profile/opengov.nl)
 - :simple-github: [GitHub](https://github.com/opengov-nl)
 
-[:fontawesome-solid-location-dot: Visit our lab](contact.md){ .btn }
+<p class="cta" markdown>[:fontawesome-solid-location-dot: Visit our lab](contact.md){ .md-button }</p>
 
   </div>
 </section>

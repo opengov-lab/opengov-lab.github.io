@@ -87,7 +87,7 @@ h6 {
 
 .md-typeset {
   font-size: clamp(0.9rem, 1.3vw, .95rem);
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .md-typeset h1,
@@ -329,41 +329,27 @@ section.team-member {
   background: var(--md-secondary-bg-color);
 }
 
-.md-typeset a.btn {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 0.5rem 0.9rem;
-  background: var(--md-accent-fg-color);
-  color: var(--md-default-bg-color) !important; /* override link color */
-  text-decoration: none;
-  font-weight: 500;
-  border: none;
-  border-radius: 0;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,.15);  /* subtle lift */
-  transition: background 0.2s ease;
-}
-
-.md-typeset a.btn:hover,
-.md-typeset a.btn:focus {
-  background: var(--md-primary-fg-color);
-  color: var(--md-default-bg-color) !important;
-  transform: translateY(-2px);       /* lift on hover */
-  box-shadow: 0 4px 8px rgba(0,0,0,.2);
-}
-
 .band.team .people {
+  max-width: 760px;
+  margin-inline: auto;
+  justify-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  gap: 14px;
 }
 
-.band.team .people img {
+.band.team .people a img {
   width: 100%;
   aspect-ratio: 1 / 1;     /* keeps all thumbs square */
   object-fit: cover;        /* crops to face nicely */
   border-radius: 50%;       /* optional, remove if you want sharp corners */
   display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.band.team .people a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
 }
 
 .wrap {
@@ -436,6 +422,31 @@ section.team-member {
 
 .band.contact .icon svg {
   fill: var(--md-default-bg-color);
+}
+
+/* 1) Section headings: smaller + letter-spaced */
+.band .wrap > h2 {
+  font-size: 1rem;          /* down from default */
+  letter-spacing: .06em;    /* subtle rhythm */
+  text-transform: none;     /* keep case */
+  margin: 0 0 .75rem;
+}
+
+/* 2) Hero: reduce vertical space + slightly smaller logo */
+.band.hero { padding: 1.25rem 1rem; }         /* was ~2rem */
+.band.hero .logo {
+  max-width: 160px;                            /* was larger */
+  margin: 0 0 .5rem;
+}
+
+.hero .cta { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .5rem; }
+
+.md-typeset p.cta {
+  display: flex;
+  justify-content: center;
+  gap: .75rem;       /* space between multiple buttons */
+  flex-wrap: wrap;   /* stack if screen is narrow */
+  margin-top: 1rem;
 }
 
 @media (min-width: 900px){
