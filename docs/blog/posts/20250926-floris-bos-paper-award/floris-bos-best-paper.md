@@ -19,5 +19,5 @@ Congratulations to Floris Bos (not pictured), whose Computer Science MSc thesis 
 
 <!-- more -->
 
-His paper, based on his thesis was co-authored with Marc van Opijnen (Logius, [KOOP](https://www.koopoverheid.nl/)) and [Maarten Marx](https://www.opengov.nl/team/#maarten-marx) (who received the award in Tampere on Floris' behalf) and was carried out at the ICAI OpenGov Lab. 
+His paper, based on his thesis was co-authored with Marc van Opijnen (Logius, [KOOP](https://www.koopoverheid.nl/)) and [Maarten Marx](https://www.opengov.nl/team/#maarten-marx) (who received the award in Tampere on Floris' behalf) and was carried out at KOOP and the ICAI OpenGov Lab. 
 
