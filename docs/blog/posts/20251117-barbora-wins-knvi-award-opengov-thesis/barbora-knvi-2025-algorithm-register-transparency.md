@@ -5,14 +5,14 @@ categories:
   - awards
 authors:
   - dgraus
-title: Barbora Wenzlova Wins Award for Thesis on Dutch Algorithm Register
-description: Barbora Wenzlova wins the KNVI 2025 Award for her OpenGov Lab thesis on transparency in the Dutch Algorithm Register, written under the supervision of Jaap Kamps.
+title: Barbora Wenzlová Wins Award for Thesis on Dutch Algorithm Register
+description: Barbora Wenzlová wins the KNVI 2025 Award for her OpenGov Lab thesis on transparency in the Dutch Algorithm Register, written under the supervision of Jaap Kamps.
 image: barbora-knvi-2025.jpg
 ---
 
-# Barbora Wenzlova Wins Award for Thesis on Dutch Algorithm Register
+# Barbora Wenzlová Wins Award for Thesis on Dutch Algorithm Register
 
-We’re proud to share that **Barbora Wenzlova** has won the **Victorine van Schaick Prize 2025**, awarded by the Victorine van Schaick Fund, for her [Cultural Data & AI](https://www.uva.nl/shared-content/programmas/en/masters/cultural-data-ai/cultural-data-and-artificial-intelligence.html) master thesis, written under supervision of **Jaap Kamps** at the **ICAI OpenGov Lab**.
+We’re proud to share that **Barbora Wenzlová** has won the **Victorine van Schaick Prize 2025**, awarded by the Victorine van Schaick Fund, for her [Cultural Data & AI](https://www.uva.nl/shared-content/programmas/en/masters/cultural-data-ai/cultural-data-and-artificial-intelligence.html) master thesis, written under supervision of **Jaap Kamps** at the **ICAI OpenGov Lab**.
 
 Barbora received the award at the annual conference of the [KNVI](https://www.knvi.nl/) (Koninklijke Nederlandse Vereniging van Informatieprofessionals) in Ermelo on November 6, where she presented her research to an audience of information professionals focused on responsible and transparent digital transformation.
 
