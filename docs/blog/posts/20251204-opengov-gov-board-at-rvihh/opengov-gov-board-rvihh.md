@@ -5,16 +5,16 @@ categories:
   - events
 authors:
   - dgraus
-title: OpenGov Lab Governance Board Meeting at RvIHH
-description: The ICAI OpenGov Lab held its Governance Board meeting at RvIHH in The Hague, followed by a PhD session with project updates from our researchers.
-image: governance-board-rvihh-2025.jpg
+title: OpenGov Lab Governing Board Meeting at RvIHH
+description: The ICAI OpenGov Lab held its Governing Board meeting at RvIHH in The Hague, followed by a PhD session with project updates from our researchers.
+image: gov-board-rvihh-2025.jpg
 ---
 
-# OpenGov Lab Governance Board Meeting at RvIHH
+# OpenGov Lab Governing Board Meeting at RvIHH
 
-This week we met at the [Rijksorganisatie voor Informatiehuishouding (RvIHH)](https://www.rvihh.nl/) in The Hague for the **ICAI OpenGov Lab Governance Board** meeting. With GB members **Marion Hermans-Koelemij** (RvIHH) and **Peter van der Donk** (Universiteit van Amsterdam) we discussed progress, collaboration, and plans for the coming year.
+This week we met at the [Rijksorganisatie voor Informatiehuishouding (RvIHH)](https://www.rvihh.nl/) in The Hague for the **ICAI OpenGov Lab Governing Board** meeting. With GB members **Marion Hermans-Koelemij** (RvIHH) and **Peter van der Donk** (Universiteit van Amsterdam) we discussed progress, collaboration, and plans for the coming year.
 
-![OpenGov Lab Governance Board meeting at RvIHH](governance-board-rvihh-2025.jpg){ loading=lazy }
+![OpenGov Lab Governing Board meeting at RvIHH](gov-board-rvihh-2025.jpg){ loading=lazy }
 
 <!-- more -->
 
