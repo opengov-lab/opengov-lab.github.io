@@ -8,7 +8,7 @@ authors:
   - dgraus
 title: OpenGov Lab at ECIR 2025
 description: The OpenGov Lab was well represented at ECIR 2025 in Lucca, Italy. Lab members presented papers, demos, and visions for the future of search.
-image: opengov-labbers-at-ecir2025.jpg?w=1024
+image: opengov-labbers-at-ecir2025.jpg
 ---
 
 # OpenGov Lab at ECIR 2025

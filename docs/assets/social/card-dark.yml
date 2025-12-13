@@ -1,0 +1,51 @@
+# Dark theme social card layout for OpenGov Lab
+# Using the dark burgundy background with cyan accents
+
+size: { width: 1200, height: 630 }
+
+layers:
+  # Background - dark burgundy like dark mode
+  - background:
+      color: "#380504"
+
+  # Left accent bar
+  - size: { width: 12, height: 630 }
+    offset: { x: 0, y: 0 }
+    background:
+      color: "#ff2903"
+
+  # Page title - main content
+  - size: { width: 1000, height: 280 }
+    offset: { x: 60, y: 180 }
+    typography:
+      content: "{{ page.title }}"
+      align: start
+      color: "#c7fafb"
+      line:
+        amount: 3
+        height: 1.15
+      font:
+        family: Geist
+        style: Bold
+
+  # Site name at bottom
+  - size: { width: 600, height: 50 }
+    offset: { x: 60, y: 520 }
+    typography:
+      content: "{{ config.site_name }}"
+      align: start
+      color: "#ff2903"
+      font:
+        family: Geist Mono
+        style: Medium
+
+  # URL at bottom right
+  - size: { width: 400, height: 50 }
+    offset: { x: 740, y: 520 }
+    typography:
+      content: opengov.nl
+      align: end
+      color: "#c7fafb"
+      font:
+        family: Geist Mono
+        style: Medium
