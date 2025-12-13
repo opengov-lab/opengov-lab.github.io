@@ -14,7 +14,7 @@ image: governance-board-rvihh-2025.jpg
 
 This week we met at the [Rijksorganisatie voor Informatiehuishouding (RvIHH)](https://www.rvihh.nl/) in The Hague for the **ICAI OpenGov Lab Governance Board** meeting. With GB members **Marion Hermans-Koelemij** (RvIHH) and **Peter van der Donk** (Universiteit van Amsterdam) we discussed progress, collaboration, and plans for the coming year.
 
-![OpenGov Lab Governance Board meeting at RvIHH](gov-board-rvihh-2025.jpg){ loading=lazy }
+![OpenGov Lab Governance Board meeting at RvIHH](governance-board-rvihh-2025.jpg){ loading=lazy }
 
 <!-- more -->
 
