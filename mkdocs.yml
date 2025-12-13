@@ -33,7 +33,11 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - search
-  - social
+  - social:
+      cards_layout_dir: docs/assets/social
+      cards_layout: card
+      cards_layout_options:
+        font_family: Geist
   - blog:
       blog_dir: blog
       post_readtime: false
@@ -86,11 +90,6 @@ nav:
   - Contact: contact.md
 extra:
   generator: false
-  social:
-    image: assets/images/logo-social.jpg
-    cards:
-      site_name: ICAI OpenGov Lab - opengov.nl
-      site_url: https://opengov.nl
   social:
     - icon: github
       link: https://github.com/opengov-lab/
