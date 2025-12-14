@@ -133,7 +133,12 @@ template: narrow.html
 
         <div class="publication-authors">
           <span class="if author">
-            <span class="author"></span>
+            <span class="author">
+              <span class="first"></span>
+              <span class="von"></span>
+              <span class="last"></span>
+              <span class="junior"></span>
+            </span>
           </span>
         </div>
 
