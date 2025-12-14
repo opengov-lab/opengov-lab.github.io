@@ -5,7 +5,7 @@ template: narrow.html
 ---
 
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js" type="text/javascript"></script>
-<bibtex src="publications.bib"></bibtex>
+<bibtex src="/publications.bib"></bibtex>
 
 <style>
   bibtex { display: none; }
