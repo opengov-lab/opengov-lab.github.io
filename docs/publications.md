@@ -7,51 +7,9 @@ template: narrow.html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js" type="text/javascript"></script>
 
-<textarea id="bibtex_input" style="display:none;">
-@article{vanheusden2025fair,
-  title = {A Collection of {FAIR} {Dutch} {Freedom} of {Information} {Act} Documents},
-  author = {Ruben van Heusden and Maik Larooij and Jaap Kamps and Maarten Marx},
-  journal = {Scientific Data},
-  year = {2025},
-  volume = {12},
-  pages = {795},
-  doi = {10.1038/s41597-025-05052-2},
-  publisher = {Nature Publishing Group}
-}
-
-@inproceedings{vanwijk2025spoken,
-  title = {Spoken Question Answering on Municipal Council Meetings},
-  author = {Pepijn van Wijk and Maarten Marx},
-  booktitle = {Advances in Information Retrieval: 47th European Conference on Information Retrieval, ECIR 2025},
-  year = {2025},
-  pages = {41--46},
-  publisher = {Springer},
-  series = {Lecture Notes in Computer Science},
-  volume = {15576},
-  address = {Lucca, Italy},
-  doi = {10.1007/978-3-031-88720-8_8}
-}
-
-@inproceedings{bos2025linking,
-  title = {Linking References to Documents in Parliamentary Debates},
-  author = {Floris Bos and Marc van Opijnen and Maarten Marx},
-  booktitle = {Proceedings of the 29th International Conference on Theory and Practice of Digital Libraries},
-  year = {2025},
-  publisher = {Springer},
-  address = {Tampere, Finland},
-  note = {Best Short Paper Award}
-}
-
-@mastersthesis{wenzlova2025beyond,
-  title = {Beyond Disclosure: Evaluating Algorithmic Transparency in the Dutch Algorithm Register},
-  author = {Barbora Wenzlová},
-  year = {2025},
-  school = {University of Amsterdam},
-  type = {Master's thesis},
-  note = {KNVI Victorine van Schaick Prize 2025. Supervised by Jaap Kamps},
-  url = {https://scripties.uba.uva.nl/search?id=c13578141}
-}
-</textarea>
+<div markdown="0">
+<bibtex src="/publications.bib"></bibtex>
+</div>
 
 <style>
   bibtex { display: none; }
