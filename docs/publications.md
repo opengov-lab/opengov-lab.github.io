@@ -6,7 +6,7 @@ template: narrow.html
 
 <div markdown="0">
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js" type="text/javascript"></script>
-<bibtex src="/publications.bib"></bibtex>
+<bibtex src="../publications.bib"></bibtex>
 </div>
 
 <style>
@@ -30,8 +30,6 @@ template: narrow.html
 
   .publication-item {
     margin-bottom: 2rem;
-    padding-left: 1rem;
-    border-left: 3px solid var(--md-accent-fg-color);
     padding-bottom: 1rem;
   }
 
@@ -153,7 +151,7 @@ template: narrow.html
           <span class="if doi">
             <a class="bibtexVar" href="https://doi.org/+DOI+" extra="DOI" target="_blank">DOI</a>
           </span>
-          <a class="bibtexVar" href="#bib+BIBTEXKEY+" onclick="document.getElementById('bib+BIBTEXKEY+').style.display = document.getElementById('bib+BIBTEXKEY+').style.display === 'none' ? 'block' : 'none'; return false;" extra="BIBTEXKEY">BibTeX</a>
+          <a class="bibtexVar" href="javascript:void(0)" onclick="var el = document.getElementById('bib+BIBTEXKEY+'); el.style.display = el.style.display === 'none' ? 'block' : 'none';" extra="BIBTEXKEY">BibTeX</a>
         </div>
 
         <div class="bibtexVar bibtex-display" id="bib+BIBTEXKEY+" style="display: none;" extra="BIBTEXKEY">
