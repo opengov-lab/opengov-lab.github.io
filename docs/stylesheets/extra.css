@@ -251,6 +251,11 @@ header.md-typeset h1 {
   fill: var(--md-default-bg-color);
 }
 
+/* Hamburger icon - needs to be visible in both light and dark modes */
+.md-header__button[for="__drawer"] .md-icon svg {
+  fill: var(--md-primary-fg-color);
+}
+
 .md-top svg {
   fill: var(--md-default-fg-color);
 }
@@ -574,11 +579,13 @@ section.team-member {
     font-size: 1.1rem;
     font-weight: 400;
     padding: 0.4rem 1rem;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--md-default-bg-color);
+    opacity: 0.85;
   }
 
   .md-nav--primary .md-nav__item .md-nav .md-nav__link:hover {
     color: var(--md-accent-fg-color);
+    opacity: 1;
   }
 
   /* Toggle for nested items */
