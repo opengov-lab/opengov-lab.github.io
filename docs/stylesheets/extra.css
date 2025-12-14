@@ -550,8 +550,31 @@ section.team-member {
     transition: none;
   }
 
-  .md-nav--primary .md-nav__title {
+  /* Hide main nav title but keep nested nav titles (back buttons) */
+  .md-nav--primary > .md-nav__title {
     display: none;
+  }
+
+  /* Style nested nav titles (back buttons) */
+  .md-nav--primary .md-nav__item .md-nav .md-nav__title {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--md-default-bg-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .md-nav--primary .md-nav__item .md-nav .md-nav__title .md-nav__icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+
+  .md-nav--primary .md-nav__item .md-nav .md-nav__title .md-nav__icon svg {
+    fill: var(--md-default-bg-color);
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   /* Nested navigation / submenu styling */
