@@ -7,7 +7,7 @@ template: narrow.html
 <div markdown="0">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js" type="text/javascript"></script>
-<bibtex src="../publications.bib"></bibtex>
+<bibtex src="publications.bib"></bibtex>
 </div>
 
 <style>
