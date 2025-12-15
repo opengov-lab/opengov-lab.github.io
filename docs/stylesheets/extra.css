@@ -539,14 +539,14 @@ section.team-member {
     font-family: Geist, sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--md-default-bg-color);
+    color: var(--md-default-bg-color) !important;
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
   }
 
   .md-nav--primary .md-nav__link:hover {
-    color: var(--md-accent-fg-color);
+    color: var(--md-accent-fg-color) !important;
     transition: none;
   }
 
@@ -557,11 +557,11 @@ section.team-member {
 
   /* Style nested nav titles (back buttons) */
   .md-nav--primary .md-nav__item .md-nav .md-nav__title {
-    display: flex;
+    display: flex !important;
     align-items: center;
     padding: 0.5rem 1rem;
     margin-bottom: 0.5rem;
-    color: var(--md-default-bg-color);
+    color: var(--md-default-bg-color) !important;
     font-size: 1.1rem;
     cursor: pointer;
   }
@@ -572,7 +572,7 @@ section.team-member {
   }
 
   .md-nav--primary .md-nav__item .md-nav .md-nav__title .md-nav__icon svg {
-    fill: var(--md-default-bg-color);
+    fill: var(--md-default-bg-color) !important;
     width: 1.2rem;
     height: 1.2rem;
   }
@@ -602,12 +602,12 @@ section.team-member {
     font-size: 1.1rem;
     font-weight: 400;
     padding: 0.4rem 1rem;
-    color: var(--md-default-bg-color);
+    color: var(--md-default-bg-color) !important;
     opacity: 0.85;
   }
 
   .md-nav--primary .md-nav__item .md-nav .md-nav__link:hover {
-    color: var(--md-accent-fg-color);
+    color: var(--md-accent-fg-color) !important;
     opacity: 1;
   }
 
