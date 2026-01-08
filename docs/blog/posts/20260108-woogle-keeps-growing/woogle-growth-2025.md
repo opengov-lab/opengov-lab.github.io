@@ -5,10 +5,11 @@ authors:
   - dgraus
 categories:
   - woogle
-title: WooGLe Keeps Growing: 8 Million Documents!
+title: "WooGLe Keeps Growing: 8 Million Documents!"
 description: WooGLe has doubled in size in 2025, now indexing over **8 million documents** across more than 90,000 dossiers from nearly 800 government bodies
 image: woogle-growth-chart.png
 ---
+
 
 # WooGLe Keeps Growing: 8 Million Documents!
 
