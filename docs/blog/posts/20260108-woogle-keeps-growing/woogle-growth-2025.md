@@ -38,11 +38,11 @@ We're also planning to add _Kamerstukken_ (parliamentary documents beyond the Ha
 
 WooGLe has always been about proving a point: that a **unified search facility for all Woo information** is not only useful but entirely feasible. The key ingredient? Government bodies providing data in a standardized format—which is exactly what many of them want to do!
 
-Government doesn't need to build everything itself. With good APIs and FAIR data publication (as required under Article 2.4.3 of the Woo), third parties—researchers, journalists, democracy watchdogs, all can build their own tools. A great example: Bert Hubert's [search system](https://berthub.eu/tkconv/) built on top of the Tweede Kamer API. We've been calling for this approach since [our 2022 ESB article](https://esb.nu/openbaarheid-van-bestuur-kan-vrijwel-kosteloos-beter/), and we'll keep making the case.
+Government doesn't need to build everything itself. With good APIs and FAIR data publication (as required under Article 2.4.3 of the Woo), third parties—researchers, journalists, democracy watchdogs, all can build their own tools. A great example: Bert Hubert's [search system](https://berthub.eu/tkconv/) built on top of the Tweede Kamer API. WooGLe has been calling for this approach since [a 2022 ESB article](https://esb.nu/openbaarheid-van-bestuur-kan-vrijwel-kosteloos-beter/), and will keep making the case.
 
-## One change: Sunsetting our hosting service
+## One change: Sunsetting hosting service
 
-Back in 2022, we offered a simple upload service for government bodies struggling to publish their Woo dossiers online. This was always meant as a temporary solution. In 2026, we're discontinuing this service and helping organizations transition to professional platforms like iBabs, NotuBiz, or Dimpact.
+Back in 2022, WooGLe offered a simple upload service for government bodies struggling to publish their Woo dossiers online. This was always meant as a temporary solution. In 2026, WooGLe is discontinuing its service and helping organizations transition to professional platforms like iBabs, NotuBiz, or Dimpact.
 
 ---
 
