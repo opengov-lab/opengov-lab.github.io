@@ -5,13 +5,13 @@ authors:
   - dgraus
 categories:
   - woogle
-title: "WooGLe Keeps Growing: 8 Million Documents!"
+title: "WooGLe keeps growing: 8 million documents!"
 description: WooGLe has doubled in size in 2025, now indexing over **8 million documents** across more than 90,000 dossiers from nearly 800 government bodies
 image: woogle-growth-chart.png
 ---
 
 
-# WooGLe Keeps Growing: 8 Million Documents!
+# WooGLe keeps growing: 8 million documents!
 
 Every year around Christmas, we take stock of WooGLe's growth. And once again, the most recent numbers are remarkable: WooGLe has doubled in size, now indexing over **8 million documents** across more than 90,000 dossiers from nearly 800 government bodies! Maarten Marx has written an [extensive blog](https://wooverheid.nl/2026/01/07/woogle-blijft-exponentieel-groeien/) about this on Wooverheid (Dutch). Read the summary below! 
 
@@ -34,13 +34,13 @@ This year, we're shifting focus from quantity to quality. We want to use AI and 
 
 We're also planning to add _Kamerstukken_ (parliamentary documents beyond the Handelingen), enriched _beschikkingen_ (permit decisions with their underlying requests), and _raadsverslagen_ (linking council agendas to actual decisions and discussions). And we're looking to connect directly to _Dimpact_ through their Woo-API.
 
-## Why This Matters
+## Why this matters
 
 WooGLe has always been about proving a point: that a **unified search facility for all Woo information** is not only useful but entirely feasible. The key ingredient? Government bodies providing data in a standardized format—which is exactly what many of them want to do!
 
 Government doesn't need to build everything itself. With good APIs and FAIR data publication (as required under Article 2.4.3 of the Woo), third parties—researchers, journalists, democracy watchdogs, all can build their own tools. A great example: Bert Hubert's [search system](https://berthub.eu/tkconv/) built on top of the Tweede Kamer API. We've been calling for this approach since [our 2022 ESB article](https://esb.nu/openbaarheid-van-bestuur-kan-vrijwel-kosteloos-beter/), and we'll keep making the case.
 
-## One Change: Sunsetting Our Hosting Service
+## One change: Sunsetting our hosting service
 
 Back in 2022, we offered a simple upload service for government bodies struggling to publish their Woo dossiers online. This was always meant as a temporary solution. In 2026, we're discontinuing this service and helping organizations transition to professional platforms like iBabs, NotuBiz, or Dimpact.
 
