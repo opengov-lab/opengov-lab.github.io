@@ -47,3 +47,5 @@ Back in 2022, WooGLe offered a simple upload service for government bodies strug
 ---
 
 Want to explore WooGLe? Check out [woogle.wooverheid.nl](https://woogle.wooverheid.nl) or the [overview page](https://woogle.wooverheid.nl/overview) for current stats!
+
+Update: It is now also possible to curate and export your own WooGLe dataset! Read all about it in our new blog post: [Curate your own WooGLe dataset!](https://opengovlab.org/blog/2026/01/15/curate-your-own-woogle-dataset/).
