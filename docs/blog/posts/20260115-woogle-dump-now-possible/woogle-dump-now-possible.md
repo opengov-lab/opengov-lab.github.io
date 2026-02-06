@@ -8,6 +8,7 @@ categories:
 title: "Curate and export your own WooGLe dataset!"
 description: It is now possible to curate and export your own WooGLe dataset!
 image: datadump.png
+hidden: true
 ---
 
 

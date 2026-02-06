@@ -8,28 +8,30 @@
     </header>
 
     {% for post in posts %}
-    <article class="md-post md-post--excerpt">
-      <header class="md-post__header">
-        <div class="post-date">
-          {{ post.meta.date['created'].strftime('%d.%m.%Y') }}
-        </div>
-        <div class="post-meta">
-          {% if post.meta.authors %}
-            by {{ post.meta.authors | join(' and ') }}
-          {% endif %}
-      
-          {% if post.meta.categories %}
-            in 
-            {% for category in post.meta.categories %}
-              <a href="/blog/category/{{ category | urlize }}/">{{ category }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-          {% endif %}
-        </div>
-      </header>
-    <div class="md-post__content md-typeset">
-      {{ post.content | safe }}
-    </div>
-    </article>
+    {% if not post.meta.hidden %}
+      <article class="md-post md-post--excerpt">
+        <header class="md-post__header">
+          <div class="post-date">
+            {{ post.meta.date['created'].strftime('%d.%m.%Y') }}
+          </div>
+          <div class="post-meta">
+            {% if post.meta.authors %}
+              by {{ post.meta.authors | join(' and ') }}
+            {% endif %}
+        
+            {% if post.meta.categories %}
+              in 
+              {% for category in post.meta.categories %}
+                <a href="/blog/category/{{ category | urlize }}/">{{ category }}</a>{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </header>
+      <div class="md-post__content md-typeset">
+        {{ post.content | safe }}
+      </div>
+      </article>
+    {% endif %}
     
       
     {% endfor %}
