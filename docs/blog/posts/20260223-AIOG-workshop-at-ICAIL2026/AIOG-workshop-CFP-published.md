@@ -17,6 +17,9 @@ We're excited to announce the **1st AI & Open Government Workshop (AIOG)**, co-l
 
 The workshop is co-organized by [David Graus](https://opengov.nl) (University of Amsterdam & ICAI OpenGov Lab), [Graham McDonald](https://www.gla.ac.uk/schools/computing/staff/grahammcdonald/) (University of Glasgow), and [Jason R. Baron](https://ischool.umd.edu/directory/jason-r-baron/) (University of Maryland). David initiated the workshop out of the OpenGov Lab's mission to connect the communities working at the intersection of AI and government transparency — spanning information retrieval, legal AI, NLP, e-discovery, and open government practice — who don't always meet at the same conferences.
 
+
+![visit AIOG.net for the CfP](210e9353-d56e-4bb5-9c66-77cb690e256b.jpg)
+
 <!-- more -->
 
 ## Why this workshop?
