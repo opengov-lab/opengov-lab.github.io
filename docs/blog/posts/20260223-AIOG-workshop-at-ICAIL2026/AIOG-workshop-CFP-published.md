@@ -7,7 +7,7 @@ categories:
   - aiog
 title: "Call for Papers: AI & Open Government Workshop at ICAIL 2026"
 description: We're organizing the 1st AI & Open Government Workshop (AIOG), co-located with ICAIL 2026 in Singapore on June 8, 2026. The call for papers is now open!
-image: aiog-cfp.png
+image: 210e9353-d56e-4bb5-9c66-77cb690e256b.jpg
 ---
 
 
