@@ -114,17 +114,16 @@ I'm a PhD candidate at the ICAI OpenGov Lab, focusing on the information culture
 </div>
 </section>
 
-<section class="team-member" markdown>
+<section class="team-member" markdown onclick="window.location.href='/team/patricia-moeskops'">
+
 <div class="team-member__info" markdown>
 ## Patricia Moeskops
-
 PhD Student  
 [moeskops@opengov.nl](mailto:moeskops@opengov.nl)
-
 </div>
 
 <div class="team-member__image" markdown>
-![Patricia Moeskops](assets/images/team/patricia.jpg "Patricia Moeskops")
+![Patricia Moeskops](assets/images/team/patricia.jpg)
 </div>
 
 <div class="team-member__bio" markdown>

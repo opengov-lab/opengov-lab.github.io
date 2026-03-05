@@ -63,4 +63,6 @@ This work bridges technology and society, and focuses on organizational practice
 ## WP5: Sources and Evidence in Open Government  
 :material-account: Demand side &nbsp;&nbsp;&nbsp; :material-scale-balance: Information culture
 
-How can users trust what they read? This work examines the **authoritativeness and evidentiary value** of open government data, and how to make this clearer and more accountable in the government's information management practices.
+How can government information be managed in a way that is **resilient to the influence of disinformation?** This research examines the authoritativeness and evidentiary value of open government data and explores how these can be made more transparent and accountable within government information management practices.
+
+This research is being conducted by Patricia Moeskops, a PhD candidate at the OpenGov Lab. You can read more about her research on [her page](team/patricia-moeskops.md).

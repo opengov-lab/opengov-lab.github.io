@@ -302,6 +302,10 @@ section.team-member {
   box-sizing: border-box;
 }
 
+section.team-member[onclick] {
+  cursor: pointer;
+}
+
 .team-member__info,
 .team-member__image,
 .team-member__bio {
@@ -329,6 +333,7 @@ section.team-member {
 
 .team-member__info {
   font-family: 'Geist Mono Medium', monospace;
+  position: relative;
 }
 
 .team-member__info h2 {
