@@ -57,7 +57,7 @@ I am an assistant professor at the IRLab at the University of Amsterdam.
 </div>
 </section>
 
-<section class="team-member" markdown>
+<section class="team-member" markdown onclick="window.location.href='/team/maik-larooij'">
 <div class="team-member__info" markdown>
 ## Maik Larooij
 

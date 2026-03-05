@@ -39,11 +39,12 @@ We investigate how governments can make their documents and data collections mor
 This work focuses on the **supply side** of open government data.
 
 
-## WP2: Advanced Search for Open Government Data  
+## WP2: Advanced Information Retrieval for Open Government Data  
 :material-account: Demand side &nbsp;&nbsp;&nbsp; :material-folder-outline: Passive &nbsp;&nbsp;&nbsp; :material-folder-open-outline: Active
 
-We design tools that help end-users such as citizens, journalists, and researchers to **find and navigate** complex government documents and datasets. 
-This research focuses on the **demand side**, particularly in passive and active publication scenarios.
+Recent developments in **generative AI and Large Language Models (LLMs)** are changing the way we search for information. For governments, it is crucial that this information is **easily accessible** to citizens, journalists, and researchers. This research focuses on developing techniques to improve the search experience for open government data. This includes exploring how conversational search can be applied to government information, and how LLMs can be used to generate **more accurate and relevant answers** based on government documents.
+
+This research is being conducted by Maik Larooij, a PhD candidate at the OpenGov Lab. You can read more about his research on [his page](team/maik-larooij.md).
 
 
 ## WP3: Advanced NLP for Open Government Data  
