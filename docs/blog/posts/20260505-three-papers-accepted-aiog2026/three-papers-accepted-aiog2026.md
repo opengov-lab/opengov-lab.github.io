@@ -12,6 +12,8 @@ image: IMG_20260505_065540.jpg
 
 Three papers from the OpenGov Lab have been accepted at the **AI & Open Government Workshop (AIOG 2026)**, co-located with ICAIL 2026 in Singapore on 8 June.
 
+[![The list of accepted papers on aiog.net](IMG_20260505_065540.jpg)](https://aiog.net/accepted-papers)
+
 <!-- more -->
 
 The accepted papers cover different facets of automating and improving open government data and FOIA processes:
