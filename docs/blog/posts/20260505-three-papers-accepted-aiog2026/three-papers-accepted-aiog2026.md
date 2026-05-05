@@ -7,7 +7,7 @@ authors:
   - dgraus
 title: Three OpenGov Lab papers accepted at AIOG 2026
 description: Three OpenGov Lab papers have been accepted at the AI & Open Government Workshop (AIOG 2026), co-located with ICAIL 2026 in Singapore on 8 June. The papers cover redaction detection, FOIA exemption classification, and practical interpretability of open government data.
-image: aiog-accepted-papers.jpg
+image: IMG_20260505_065540.jpg
 ---
 
 Three papers from the OpenGov Lab have been accepted at the **AI & Open Government Workshop (AIOG 2026)**, co-located with ICAIL 2026 in Singapore on 8 June.
