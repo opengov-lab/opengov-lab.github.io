@@ -87,7 +87,7 @@ Our research helps improve information culture and practices within government, 
 - :fontawesome-solid-envelope: [info@opengov.nl](mailto:info@opengov.nl)
 - :fontawesome-brands-square-linkedin: [LinkedIn](https://www.linkedin.com/company/opengov-lab/)
 - :fontawesome-brands-bluesky: [Bluesky](https://bsky.app/profile/opengov.nl)
-- :simple-github: [GitHub](https://github.com/opengov-nl)
+- :simple-github: [GitHub](https://github.com/opengov-lab)
 
 <p class="cta" markdown>[:fontawesome-solid-location-dot: Visit our lab](contact.md){ .md-button }</p>
 
