@@ -87,7 +87,7 @@ Background:
 
 Work from the OpenGov Lab used in the tutorial:
 
-- Van Heusden, Larooij, Kamps and Marx, *A collection of FAIR Dutch Freedom of Information Act documents*, Scientific Data, 2025. WooZM, the search engine built on this collection, is used as an example throughout.
+- Van Heusden, Larooij, Kamps and Marx, *A collection of FAIR Dutch Freedom of Information Act documents*, Scientific Data, 2025. [WooZM](https://woozm.nl), the search engine built on this collection, is used as an example throughout.
 - Van Heusden, Kamps and Marx, *OpenPSS: An Open Page Stream Segmentation Benchmark*, TPDL, 2024
 - Van Heusden, Meijer and Marx, *Redacted text detection using neural image segmentation methods*, IJDAR, 2025
 - Van Wijk and Marx, *Spoken Question Answering on Municipal Council Meetings*, ECIR, 2025
@@ -107,4 +107,4 @@ Questions about the tutorial can go to [graus@opengov.nl](mailto:graus@opengov.n
 
 ## OpenGov Lab
 
-The [ICAI OpenGov Lab](../about.md) is a collaboration between the University of Amsterdam and Dutch government partners, among them the Dutch Government Organization for Information Management.
+The [ICAI OpenGov Lab](../about.md) is a collaboration between the University of Amsterdam and Dutch government partners, among them the [Dutch Government Organization for Information Management (RvIHH)](https://www.rvihh.nl/).
