@@ -6,9 +6,10 @@ template: narrow.html
 
 ## From Records to Release: An IR/NLP Tour of the Open Government Disclosure Lifecycle
 
-Spotlight tutorial at JURIX 2026, Toulouse  
-8 December 2026, 90 minutes (time and room to follow)  
-Presented by [David Graus](../team.md), University of Amsterdam and ICAI OpenGov Lab
+:material-map-marker: Spotlight tutorial at JURIX 2026, Toulouse  
+:material-calendar: 8 December 2026 (time and room to follow)  
+:material-timer-outline: 90 minutes, no programming  
+:material-account: Presented by [David Graus](../team.md), University of Amsterdam and ICAI OpenGov Lab
 
 ## About the tutorial
 
@@ -18,9 +19,9 @@ Request-driven disclosure has a lot in common with e-discovery. Both use technol
 
 The tutorial is organised around three stages of the disclosure lifecycle:
 
-1. Information management: machine-readability, FAIR publication, metadata, classification and document processing.
-2. Request-driven disclosure: FOIA search, technology-assisted review, high-recall and sensitivity-aware search. This is the most developed area in IR.
-3. Proactive disclosure: findability of open data, plain language, recommendation and RAG over released records. This is the newest and least studied area.
+1. **Information management**: machine-readability, FAIR publication, metadata, classification and document processing.
+2. **Request-driven disclosure**: FOIA search, technology-assisted review, high-recall and sensitivity-aware search. This is the most developed area in IR.
+3. **Proactive disclosure**: findability of open data, plain language, recommendation and RAG over released records. This is the newest and least studied area.
 
 The material comes from a mapping study by David Graus, Maik Larooij, Maarten Marx and Jaap Kamps (ICAI OpenGov Lab), which we are preparing for peer review. JURIX is the first place we present it, and we would like to hear from attendees what is missing or should be organised differently.
 
