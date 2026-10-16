@@ -21,17 +21,17 @@ The OpenGov Lab is heading to Toulouse for **JURIX 2026**, the 39th Internationa
 ### Semantic classification of legal citations with Large Language Models
 *Thijs Beers, Marc van Opijnen, Maarten Marx*
 
-Citation networks of Dutch case law usually treat every citation the same, so a high in-degree gets read as legal authority. This paper tests whether LLMs can classify citations between Dutch judgments by their legal function. The models recognise the most common functions well but struggle with the rarer ones, and counting only supporting citations noticeably changes which judgments come out as central.
+Citation networks of (Dutch) case law typically treat every citation equally, so a high in-degree gets read as legal authority. This paper tests whether LLMs can classify citations between judgments by their legal function; e.g., supportive, dismissive, or neutral). This paper finds models tend to recognize the most frequent functions well, but struggle with rarer ones. Finally, counting only supporting citations (instead of all) noticeably changes which judgments come out as central and hence authorative. 
 
 ### Towards More Granular Reasoning: Mapping the DSA Transparency Database Taxonomy to Platform Terms and Conditions Using Large Language Models
 *Alyson Ranucci, Eline Leijten, David Graus*
 
-Almost all content moderation decisions in the DSA Transparency Database cite a platform's own terms and conditions, not the law. Using an LLM, this paper maps the terms and conditions of 31 online services onto the database's seventeen categories. The categories fit some types of service much better than others and overlap, which makes catch-all reporting a result of the database's design. The authors propose a schema that differentiates by service type.
+Almost all content moderation decisions in the DSA Transparency Database cite a platform's own terms and conditions, not the DSA's pre-determined seventeen categories of reasons for content moderation. Using an LLM, this paper maps the terms and conditions of 31 online platforms (VLOPs en VLOSEs) onto the DSA's transparency database seventeen categories. The paper finds these categories fit some types of platforms much better than others, and they overlap, which makes catch-all reporting (the "other" category) a predictable result of the database's design. 
 
 ### Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law
 *Daan Boven, Gregor Behnke, David Graus*
 
-The *actio pauliana* (Article 42 of the Dutch Bankruptcy Act) lets an insolvency practitioner undo transactions that harmed creditors. This paper models the article with a symbolic core written in [Catala](https://catala-lang.org/), while neural components resolve open-textured terms through case-based reasoning over Dutch civil judgments. The model handles most criteria reasonably, but the knowledge requirement remains hard.
+The *actio pauliana* (Article 42 of the Dutch Bankruptcy Act) lets an insolvency practitioner undo transactions that harmed creditors. This paper models the article with a symbolic core written in [Catala](https://catala-lang.org/), while neural components resolve open-textured terms through case-based reasoning, using an advanced RAG pipeline over over Dutch civil judgments. 
 
 ## Spotlight tutorial: From Records to Release
 
