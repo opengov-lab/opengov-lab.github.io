@@ -21,6 +21,6 @@ The OpenGov Lab has six new thesis projects for (Master) students who want to wo
 5. **Extracting and consolidating compliance requirements from legal text**: use LLMs to extract and consolidate requirements from overlapping standards such as ISO 27001, BIO2 and NIS2.
 6. **Citizen-relevant information omission in LLM summarization**: study which information LLM summaries of long government documents drop, and whether opposition and minority positions are left out more often.
 
-Interested? Scan the QR code on the flyer to send an expression of interest, or [contact](/contact) us!
+Interested? [**Send us an expression of interest**](https://docs.google.com/forms/d/e/1FAIpQLSf1NUCd7cg-wjTOMn5Lo8gX8onBPf8_oFlJhECgg2baKrTdyQ/viewform), or [contact](/contact) us with any questions!
 
 [![OpenGov Lab thesis projects flyer](thesis-projects-flyer.jpg){ loading=lazy }](/flyers/thesis-projects.pdf)
