@@ -43,7 +43,7 @@ Access-to-information laws in 139 countries handled around 6.4 million requests 
 2. **Request-driven disclosure**: FOIA search, technology-assisted review and sensitivity-aware search.
 3. **Proactive disclosure**: findability, plain language, recommendation and RAG over released records.
 
-The tutorial is based on a mapping study by David Graus, Maik Larooij, Maarten Marx and Jaap Kamps. JURIX is the first place we present it, and we would like to hear from attendees what is missing or should be organised differently. There is no programming involved. The full programme and reading list are on the [tutorial page](../../../tutorials/jurix-2026.md).
+The tutorial is based on a mapping study by David Graus, Maik Larooij, Maarten Marx and Jaap Kamps. There is no programming involved. The full programme and reading list are on the [tutorial page](../../../tutorials/jurix-2026.md).
 
 ## See you in Toulouse
 
