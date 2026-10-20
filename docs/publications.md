@@ -7,6 +7,39 @@ template: narrow.html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js" type="text/javascript"></script>
 
+<script>
+  // Highlight authors who are on the team page and link them to their anchor there
+  function linkLabMembers(display) {
+    // bibtex-js always writes ", and"; drop the comma when there are only two authors
+    display.querySelectorAll(".publication-authors span.author").forEach(function (authors) {
+      if (authors.querySelectorAll(":scope > span:not(.bibtex_js_conjunction)").length === 2) {
+        authors.querySelector(".bibtex_js_conjunction").textContent = " and";
+      }
+    });
+    var normalize = function (name) {
+      return name.replace(/\s+/g, " ").trim().normalize("NFC").toLowerCase();
+    };
+    fetch("/team/")
+      .then(function (response) { return response.text(); })
+      .then(function (html) {
+        var team = new DOMParser().parseFromString(html, "text/html");
+        var members = {};
+        team.querySelectorAll(".team-member h2[id]").forEach(function (heading) {
+          members[normalize(heading.textContent.replace("¶", ""))] = heading.id;
+        });
+        display.querySelectorAll(".publication-authors span.author > span:not(.bibtex_js_conjunction)").forEach(function (author) {
+          var id = members[normalize(author.textContent)];
+          if (!id) return;
+          var link = document.createElement("a");
+          link.className = "lab-member";
+          link.href = "/team/#" + id;
+          author.parentNode.insertBefore(link, author);
+          link.appendChild(author);
+        });
+      });
+  }
+</script>
+
 <div markdown="0">
 <bibtex src="/publications.bib"></bibtex>
 </div>
@@ -28,6 +61,10 @@ template: narrow.html
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--md-primary-fg-color);
+  }
+
+  .publication-authors a.lab-member {
+    font-weight: 600;
   }
 
   .publication-item {
@@ -115,7 +152,7 @@ template: narrow.html
   </div>
 
   <!-- Publication template -->
-  <div id="bibtex_display">
+  <div id="bibtex_display" callback="linkLabMembers(bibtex_display)">
     <div class="bibtex_template" style="display: none;">
       <div class="publication-item">
         <div class="publication-title">
@@ -133,12 +170,7 @@ template: narrow.html
 
         <div class="publication-authors">
           <span class="if author">
-            <span class="author">
-              <span class="first"></span>
-              <span class="von"></span>
-              <span class="last"></span>
-              <span class="junior"></span>
-            </span>
+            <span class="author"><span class="first"></span><span class="von" bibtex-js-rif=""> </span><span class="last" bibtex-js-rif=""> </span><span class="junior">, </span></span>
           </span>
         </div>
 
